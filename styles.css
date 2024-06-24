@@ -1,0 +1,118 @@
+/* Estilo para o corpo da página */
+/* Estilo para o corpo da página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url('background.jpeg') no-repeat center 20%; /* Ajustando a posição do plano de fundo */
+    background-size: cover;
+    opacity: 0.9; /* Reduzindo a opacidade para tornar a imagem mais visível */
+}
+
+
+/* Estilo para o contêiner principal */
+.link-tree-container {
+    text-align: center;
+    background-color: rgba(247, 244, 244, 0.247);
+    padding: 8px; /* Reduzindo o padding */
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgb(145, 135, 135);
+    max-width: 320px; /* Reduzindo o tamanho máximo */
+    width: 100%;
+    margin: 0 auto;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Media query para dispositivos móveis */
+@media (max-width: 480px) {
+    .link-tree-container {
+        max-width: 280px; /* Reduzindo ainda mais o tamanho máximo */
+    }
+}
+
+/* Estilo para o logo no rodapé */
+footer .logo {
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 3px solid rgba(63, 18, 65, 0.2);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+}
+
+/* Estilo para o título */
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #0c0c0c;
+}
+
+/* Estilo para o título */
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15
+    
+    
+    px;
+    margin-bottom: 10px; /* Reduzindo a margem inferior */
+    color: rgb(7, 7, 7); /* Adicionando uma cor de destaque */
+}
+
+
+/* Estilo para os links */
+.links a {
+    display: block;
+    background-color: rgb(114, 16, 57);
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    margin: 10px 0;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+/* Estilo hover para os links */
+.links a:hover {
+    background-color: rgba(63, 18, 65, 0.9);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(63, 18, 65, 0.2);
+}
+
+/* Estilo para o botão de abrir mais links */
+.button-link {
+    background-color: rgb(114, 16, 57);
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+/* Estilo hover para o botão */
+.button-link:hover {
+    background-color: rgba(63, 18, 65, 0.9);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(63, 18, 65, 0.2);
+}
+
+/* Estilo para o footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #33333304;
+    color: #1d1d1d;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Adicionando prefixos específicos do fornecedor */
+:-webkit-full-screen-ancestor {
+    background: inherit;
+}
